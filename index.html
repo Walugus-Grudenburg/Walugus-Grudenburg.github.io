@@ -1,7 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Universal Clone Translator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>How does this HTML shit work.</p>
+  <div class="container">
+    <h1>Morse Code Translator</h1>
+
+    <textarea id="inputText" placeholder="Normal text here..."></textarea>
+
+    <div class="buttons">
+      <button onclick="translateToMorse()">To Morse</button>
+      <button onclick="translateToEnglish()">To English</button>
+    </div>
+
+    <textarea id="outputText" placeholder="Gimmick text here..."></textarea>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
