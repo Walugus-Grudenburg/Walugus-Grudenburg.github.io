@@ -35,7 +35,7 @@ button {
   color: inherit;
   background-color: #3c1dc7;
   padding: 10px 20px;
-  margin: 0 5px;
+  margin: 5px 5px;
   font-size: 1rem;
   cursor: pointer;
 }
@@ -60,4 +60,10 @@ button {
 }
 .ralbutton {
   background-color: #0e4500;
+}
+.zbutton{
+  background-color: #ff0000;
+}
+.ftbutton{
+  background-color: #ff7200;
 }
