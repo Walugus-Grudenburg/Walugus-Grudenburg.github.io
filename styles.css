@@ -6,7 +6,7 @@ body {
   background-position: center; 
   -webkit-background-size: cover;
   background-size: cover;
-  padding: 4vh 4vw;
+  padding: 2vh 2vw;
   display: flex;
   justify-content: center;
 }
@@ -25,7 +25,7 @@ textarea {
   font-family: Alegreya, Garamond, "Times New Roman", serif;
   width: 100%;
   height: 8vh;
-  margin: 2vh 0;
+  margin: 1.5vh 0;
   padding: 0.5vw;
   font-size: 1rem;
   resize: none;
@@ -47,22 +47,19 @@ button {
 
 @media screen and (orientation:portrait) {
     .container{
-      height:200% !important;
+      height:100% !important;
       width: 150% !important;
       max-width: 60vw !important;
     }
     textarea{
       height:100% !important;
-      padding: 0.75vw !important;
+      padding: 2vw !important;
     }
     .buttons{
-      height:200% !important;
-      margin: 0.75vw 0 !important;
     }
     button{
       font-size: 2rem;
-      height:200% !important;
-      padding: 3vh 3vw !important;
+      padding: 2vh 2.5vw !important;
       margin: 0.5vh 0.75vw !important;
     }
 }
