@@ -46,16 +46,20 @@ button {
 
 @media screen and (orientation:portrait) {
     .container{
-      height:200% !important
+      height:200% !important;
+      width:150% !important;
     }
     .textarea{
-      height:200% !important
+      height:200% !important;
+      width:150% !important;
     }
     .buttons{
-      height:200% !important
+      height:200% !important;
+      width:150% !important;
     }
     .button{
-      height:200% !important
+      height:200% !important;
+      width:150% !important;
     }
 }
 
