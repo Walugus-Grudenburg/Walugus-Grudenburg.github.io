@@ -24,8 +24,9 @@ textarea {
   background-color: #19378a;
   font-family: Alegreya, Garamond, "Times New Roman", serif;
   width: 100%;
+  max-width: 80vw;
   height: 8vh;
-  margin: 1.5vh 3vw;
+  margin: 1.5vh 0;
   padding: 0.5vw;
   font-size: 1rem;
   resize: none;
