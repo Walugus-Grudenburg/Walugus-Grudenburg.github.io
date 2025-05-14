@@ -18,6 +18,12 @@ body {
   text-align: center;
 }
 
+@media screen and (orientation:portrait) {
+    .container{
+      height:200%
+    }
+}
+
 textarea {
   color:white;
   background-color: #19378a;
