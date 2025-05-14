@@ -47,19 +47,19 @@ button {
 @media screen and (orientation:portrait) {
     .container{
       height:200% !important;
-      width:150% !important;
+      width:200% !important;
     }
     .textarea{
       height:200% !important;
-      width:150% !important;
+      width:200% !important;
     }
     .buttons{
       height:200% !important;
-      width:150% !important;
+      width:200% !important;
     }
     .button{
       height:200% !important;
-      width:150% !important;
+      width:200% !important;
     }
 }
 
