@@ -57,10 +57,12 @@ button {
     }
     .buttons{
       height:200% !important;
+      width: 150% !important;
       margin: 0.75vw 0 !important;
     }
     .button{
       height:200% !important;
+      width: 150% !important;
       padding: 1vh 3vw !important;
       margin: 0.5vh 0.75vw !important;
     }
