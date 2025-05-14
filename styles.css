@@ -1,4 +1,5 @@
 body {
+  height:100%;
   font-family: Alegreya, Garamond, "Times New Roman", serif;
   background-image: linear-gradient(#112354,black);
   background-repeat: no-repeat;
