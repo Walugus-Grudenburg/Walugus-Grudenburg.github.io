@@ -47,12 +47,12 @@ button {
 @media screen and (orientation:portrait) {
     .container{
       height:200% !important;
-      width: 150% !important;
-      max-width: 60vw !important;
+      width: 70vw !important;
+      max-width: 70vw !important;
     }
     .textarea{
       height:200% !important;
-      padding: 0.75vw !important;
+      padding: 1vw !important;
     }
     .buttons{
       height:200% !important;
@@ -60,7 +60,7 @@ button {
     }
     .button{
       height:200% !important;
-      padding: 1vh 3vw !important;
+      padding: 2vh 6vw !important;
       margin: 0.5vh 0.75vw !important;
     }
 }
