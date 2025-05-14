@@ -1,5 +1,4 @@
 body {
-  height:100%;
   font-family: Alegreya, Garamond, "Times New Roman", serif;
   background-image: linear-gradient(#112354,black);
   background-repeat: no-repeat;
@@ -7,7 +6,7 @@ body {
   background-position: center; 
   -webkit-background-size: cover;
   background-size: cover;
-  padding: 40px;
+  padding: 4vh 4vw;
   display: flex;
   justify-content: center;
 }
@@ -24,8 +23,8 @@ textarea {
   background-color: #19378a;
   font-family: Alegreya, Garamond, "Times New Roman", serif;
   width: 100%;
-  height: 6vw;
-  margin: 0.5vw 0;
+  height: 10vh;
+  margin: 3vh 0;
   padding: 0.5vw;
   font-size: 1rem;
   resize: none;
@@ -39,8 +38,8 @@ button {
   font-family: Alegreya, Garamond, "Times New Roman", serif;
   color: inherit;
   background-color: #3c1dc7;
-  padding: 0.5vw 1vw;
-  margin: 0.25vw 0.25vw;
+  padding: 1vh 2vw;
+  margin: 0.5vh 0.5vw;
   font-size: 1rem;
   cursor: pointer;
 }
