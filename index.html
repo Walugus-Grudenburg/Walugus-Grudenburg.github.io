@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+<script type="module" src="zalgo-generator.js"></script>
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Universal Clone Translator</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <h1>Morse Code Translator</h1>
+    <h1>Mode: <span id="modeText">Al3x/Morse Code</span></h1>
 
-    <textarea id="inputText" placeholder="Normal text here..."></textarea>
+    <textarea id="normalText" placeholder="Normal text here..."></textarea>
 
-    <div class="buttons">
-      <button onclick="translateToMorse()">To Morse</button>
-      <button onclick="translateToEnglish()">To English</button>
+    <textarea id="gimmickText" placeholder="Gimmick text here..."></textarea>
+    
+    <div class = buttons>
+      <h2>Switch Mode:</h2>
+      <button value="Al3x/Morse Code" class="mbutton" onclick="selectMode(this.value)">Al3x</button>
+      <button value="Xela/Backwards Words" class="bwbutton" onclick="selectMode(this.value)">Xela</button>
+      <button value="Vibing-J/Backwards Sentences" class="bsbutton" onclick="selectMode(this.value)">Vibing-J</button>
+      <button value="Vining/Wingdings" class="wdbutton" onclick="selectMode(this.value)">Vining</button>
+      <button value="Xale/Last Letter First" class="llfbutton" onclick="selectMode(this.value)">Xale</button>
+      <button value="Aelx/Alphabetical Letters" class="albutton" onclick="selectMode(this.value)">Aelx</button>
+      <button value="Xlea/Reverse Alphabetical Letters" class="ralbutton" onclick="selectMode(this.value)">Xlea</button>
+      <button value="Viling/Zalgo Text" class="zbutton" onclick="selectMode(this.value)">Viling</button>
     </div>
-
-    <textarea id="outputText" placeholder="Gimmick text here..."></textarea>
   </div>
 
   <script src="script.js"></script>

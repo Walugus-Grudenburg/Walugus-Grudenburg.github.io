@@ -1,18 +1,23 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f4f8;
+  font-family: Alegreya, Garamond, "Times New Roman", serif;
+  background-image: linear-gradient(#112354,black);
+  background-size: 100% 200%;
   padding: 40px;
   display: flex;
   justify-content: center;
 }
 
 .container {
+  color: white;
   width: 100%;
   max-width: 600px;
   text-align: center;
 }
 
 textarea {
+  color:white;
+  background-color: #19378a;
+  font-family: Alegreya, Garamond, "Times New Roman", serif;
   width: 100%;
   height: 120px;
   margin: 10px 0;
@@ -26,8 +31,33 @@ textarea {
 }
 
 button {
+  font-family: Alegreya, Garamond, "Times New Roman", serif;
+  color: inherit;
+  background-color: #3c1dc7;
   padding: 10px 20px;
   margin: 0 5px;
   font-size: 1rem;
   cursor: pointer;
+}
+
+.mbutton {
+  background-color: #878787;
+}
+.bwbutton {
+  background-color: #8800fe;
+}
+.bsbutton {
+  background-color: #008cff;
+}
+.wdbutton {
+  background-image: linear-gradient(to left,#008cff,#ff0000);
+}
+.llfbutton {
+  background-color: #2a2a2a;
+}
+.albutton {
+  background-color: #e598ff;
+}
+.ralbutton {
+  background-color: #0e4500;
 }
